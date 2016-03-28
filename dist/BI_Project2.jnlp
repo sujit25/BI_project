@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BI_Project2.jnlp">
+  <information>
+    <title>BI_Project2</title>
+    <vendor>abhi9bakshi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BI_Project2.jar" size="9476" download="eager" />
+    <jar href="lib/datafx-core-1.0.jar" size="110552" download="eager" />
+    <jar href="lib/javacsv.jar" size="13582" download="eager" />
+    <jar href="lib/weka-3.7.0.jar" size="5340945" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BI_Project2" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="bi_project2.BI_Project2"  name="BI_Project2" />
+  <update check="always"/>
+</jnlp>
